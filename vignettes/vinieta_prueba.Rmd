@@ -1,0 +1,20 @@
+---
+title: "Como usar el paquete meteorologico"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(DatosMeteorologicosProg2)
+```
+esta es una vi;eta de prieba. podemos agregar funciones como celsius_to_farenheit
