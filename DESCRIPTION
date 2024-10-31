@@ -2,7 +2,7 @@ Package: PRO
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Gregorio", "Fernandez Perrier", , "gregoriofernandezperrier@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
@@ -13,8 +13,8 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 2.10)
 LazyData: true
-URL: https://github.com/Mann890/PRO, https://bcampdepadros.github.io/paquetemeteorologico/
-BugReports: https://github.com/Mann890/PRO/issues
+URL: https://github.com/goyoioio/DatosMeteorologicosProg2, https://github.com/Lucas-Descalzo/DatosMeteorologicosProg2
+BugReports: https://github.com/Lucas-Descalzo/DatosMeteorologicosProg2/issues
 Suggests: 
     knitr,
     rmarkdown,
