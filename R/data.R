@@ -1,12 +1,12 @@
-#' Conjunto de datos
-#'
-#' Los datos contienen información de las distintas estaciones meteorológicas.
-#'
-#' @format Los datos son obtenidos de un repositorio de GitHub.
+#' Conjunto de datos de ejemplo
+#' @format Los datos son generados de forma sintetica.
 #' \describe{
-#'   \item{estaciones_merged}{muestra de datos de todas las estaciones.}
+#' \item{a}{muestra de datos}
+#' \item{b}{muestra de datos multiplicada por cinco}
 #' }
-#'
-#' @source Fuente: repositorio de GitHub.
-#' @export
-estaciones_merged <- load("data/estaciones_merged.rda")
+#' @source  generacion propia con funciones de R
+"datos"
+
+
+# usethis::use_data(datos, overwrite = TRUE)
+
