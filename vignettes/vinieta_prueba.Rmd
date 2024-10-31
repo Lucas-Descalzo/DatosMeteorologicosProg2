@@ -1,5 +1,5 @@
 ---
-title: "Como usar el paquete meteorologico"
+title: "vinieta_prueba"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{vinieta_prueba}
@@ -15,6 +15,5 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(DatosMeteorologicosProg2)
+library(PRO)
 ```
-esta es una vi;eta de prieba. podemos agregar funciones como celsius_to_farenheit
